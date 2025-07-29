@@ -1,0 +1,32 @@
+{
+  "name": "with-mongodb",
+  "version": "1.0.0",
+  "description": "node操作mongodb后端接口项目",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/159797799714/node-with-mongodb.git"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs",
+    "api'"
+  ],
+  "author": "'LKM'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/159797799714/node-with-mongodb/issues"
+  },
+  "homepage": "https://github.com/159797799714/node-with-mongodb#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
