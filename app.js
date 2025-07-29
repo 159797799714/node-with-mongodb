@@ -14,14 +14,14 @@ const app = express();
 app.use(express.json());
 
 // 路由
-app.use('/api/products', require('./routes/product'));
+app.use('/mongoApi/products', require('./routes/product'));
 
 // 首页路由
 app.get('/', (req, res) => {
   res.send('欢迎使用 Node.js MongoDB CRUD API');
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
   console.log(`服务器运行在端口 ${PORT}`);
